@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -8,9 +8,9 @@ module.exports = {
       },
       fontFamily: {
         nunito: ['Nunito'],
-      }
+      },
+      scrollbar: ['dark'],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 }
-
