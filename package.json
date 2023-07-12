@@ -2,7 +2,7 @@
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   },
-  "name": "spotify-clone",
+  "name": "y",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "dependencies": {
